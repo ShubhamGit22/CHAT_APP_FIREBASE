@@ -6,13 +6,13 @@ import ProfileUpdate from './Pages/ProfileUpdate/ProfileUpdate';
   
 const App = () => {
   return (
-    <div>
+    <>
       <Routes>
         <Route path='/' element={<Login/>}/>
         <Route path='/chat' element={<Chat/>}/>
         <Route path='/profile' element={<ProfileUpdate/>}/>
       </Routes>
-    </div>
+    </>
 
   );
 }
